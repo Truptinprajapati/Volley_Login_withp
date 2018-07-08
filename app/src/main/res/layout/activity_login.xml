@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF">
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:background="@drawable/list_border"
+        android:textSize="16dp"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="16dp"
+        android:background="@drawable/list_border"
+        android:inputType="textWebPassword"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"/>
+
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:visibility="gone"
+        android:singleLine="true"/>
+
+    <EditText android:id="@+id/txtsessionemail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:visibility="gone"/>
+
+    <EditText android:id="@+id/txtsessionpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:visibility="gone"/>
+
+    <EditText android:id="@+id/edit_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"
+        ></EditText>
+
+
+    <EditText android:id="@+id/edit_FamilyID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        />
+    <EditText android:id="@+id/edit_LTM_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        />
+    <EditText android:id="@+id/edit_memberID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        />
+
+    <EditText android:id="@+id/edit_LoginID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+    <EditText android:id="@+id/edit_session_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Forgot Password?" />
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnLogin"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/custom_fill_linear"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>
